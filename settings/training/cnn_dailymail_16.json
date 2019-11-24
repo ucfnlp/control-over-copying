@@ -1,0 +1,14 @@
+{
+	"stopConditions":
+	{
+		"max_epoch":10,
+		"earlyStopping":false,
+		"rateReduce_bound":10000
+	},
+	"checkingPoints":
+	{
+		"checkMin":0,
+		"checkFreq":1000,
+		"everyEpoch":false
+	}
+}

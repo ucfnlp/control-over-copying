@@ -1,0 +1,21 @@
+{
+    "name": "newData",
+    "method": "build",
+    "max_input_len": 100,
+    "max_output_len": 50,
+    "match": true,
+    "Parts": {
+        "train": {
+            "name": "train",
+            "path": "data/train",
+            "sorted": true,
+            "shuffled": false
+        },
+        "valid": {
+            "name": "valid",
+            "path": "data/valid",
+            "sorted": true,
+            "shuffled": false
+        }
+    }
+}

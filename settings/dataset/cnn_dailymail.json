@@ -1,0 +1,31 @@
+{
+	"name":"cnn_dailymail",
+	"method":"build",
+	"max_input_len":400,
+	"max_output_len":100,
+	"match":false,
+	"Parts":
+	{
+		"train":
+		{
+			"name":"train",
+			"path":"../../dataset/cnn_dailymail/train",
+			"sorted":true,
+			"shuffled":false
+		},
+		"test":
+		{
+			"name":"test",
+			"path":"../../dataset/cnn_dailymail/test",
+			"sorted":false,
+			"shuffled":false
+		},
+		"valid":
+		{
+			"name":"valid",
+			"path":"../../dataset/cnn_dailymail/valid",
+			"sorted":true,
+			"shuffled":false
+		}
+	}
+}

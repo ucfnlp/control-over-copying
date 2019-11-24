@@ -1,0 +1,80 @@
+{
+	"name":"gigaword",
+	"method":"build",
+	"max_input_len":100,
+	"max_output_len":50,
+	"match":true,
+	"Parts":
+	{
+		"train":
+		{
+			"name":"train",
+			"path":"../../dataset/gigaword/train_filter",
+			"sorted":true,
+			"shuffled":false
+		},
+		"sTrain":
+		{
+			"name":"sTrain",
+			"path":"../../dataset/gigaword/sTrain",
+			"sorted":true,
+			"shuffled":false
+		},
+		"mTrain":
+		{
+			"name":"mTrain",
+			"path":"../../dataset/gigaword/mTrain",
+			"sorted":true,
+			"shuffled":false
+		},
+		"test":
+		{
+			"name":"test",
+			"path":"../../dataset/gigaword/test4",
+			"sorted":false,
+			"shuffled":false
+		},
+		"sTest":
+		{
+			"name":"sTest",
+			"path":"../../dataset/gigaword/test5",
+			"sorted":false,
+			"shuffled":false
+		},
+		"valid":
+		{
+			"name":"valid",
+			"path":"../../dataset/gigaword/valid2",
+			"sorted":true,
+			"shuffled":false
+		},
+		"test-valid":
+		{
+			"name":"test-valid",
+			"path":"../../dataset/gigaword/testValid",
+			"sorted":false,
+			"shuffled":false
+		},
+		"ducTest":
+		{
+			"name":"ducTest",
+			"path":"../../dataset/gigaword/ducTest",
+			"sorted":false,
+			"shuffled":false
+		},
+		"boschTest":
+		{
+			"name": "bosch_test",
+			"path": "../../dataset/bosch_data/test",
+			"sorted": false,
+			"shuffled": false
+		},
+		"valid-all":
+		{
+			"name": "valid-all",
+			"path": "../../dataset/gigaword/valid",
+			"sorted": false,
+			"shuffled": false
+		}
+	}
+}

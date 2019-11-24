@@ -1,0 +1,16 @@
+{
+	"method":"BFS_BEAM",
+	"beam_size":10,
+	"answer_size":10,
+	"biGramTrick":true,
+	"gamma":14,
+	"maxLength":101,
+	"Conditions":
+	{
+		"maxNT":10,
+		"maxSpan":5,
+		"n_tok":28980,
+		"n_nt":3,
+		"maxGen":50
+	}
+}

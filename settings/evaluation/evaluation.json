@@ -1,0 +1,17 @@
+{
+	"metrics":
+	{
+		"Rouge":
+		{
+			"options":["rouge-1","rouge-2","rouge-l"],
+			"stats":["f","p","r"],
+			"rouge_hyp_dir":"./evaluation/rouge_hyp/",
+			"rouge_ref_dir":"./evaluation/rouge_ref/"
+		},
+		"Bleu":
+		{
+			"options":["bleu-1","bleu-2","bleu-3","bleu-4"],
+			"stats":["f","p","r"]
+		}
+	}
+}

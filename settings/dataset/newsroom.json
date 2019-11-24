@@ -1,0 +1,31 @@
+{
+	"name":"newsroom",
+	"method":"build",
+	"max_input_len":100,
+	"max_output_len":50,
+	"match":true,
+	"Parts":
+	{
+		"train":
+		{
+			"name":"train",
+			"path":"../../dataset/newsroom/train",
+			"sorted":true,
+			"shuffled":false
+		},
+		"test":
+		{
+			"name":"test",
+			"path":"../../dataset/newsroom/test",
+			"sorted":false,
+			"shuffled":false
+		},
+		"valid":
+		{
+			"name":"valid",
+			"path":"../../dataset/newsroom/dev",
+			"sorted":true,
+			"shuffled":false
+		}
+	}	
+}

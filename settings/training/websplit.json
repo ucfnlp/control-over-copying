@@ -1,0 +1,34 @@
+{
+	"reload":false,
+	"reload_path":"./model/checkpoint_Epoch8.pth.tar",
+	"optimizer":
+	{
+		"type":"Adam",
+		"params":
+		{
+			"lr":0.001,
+			"betas":[0.9, 0.999],
+			"eps":1e-08,
+			"weight_decay":1e-06
+		}
+	},
+	"grad_clip":
+	{
+		"min":-5,
+		"max":5
+	},
+	"stopConditions":
+	{
+		"max_epoch":30,
+		"earlyStopping":true,
+		"earlyStopping_metric":"valid_err",
+		"earlyStopping_bound":11630,
+		"rateReduce_bound":5000
+	},
+	"checkingPoints":
+	{
+		"checkMin":0,
+		"checkFreq":2000,
+		"everyEpoch":true
+	}
+}

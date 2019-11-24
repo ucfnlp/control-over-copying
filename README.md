@@ -1,6 +1,6 @@
 # Controlling the Amount of Verbatim Copying in Abstractive Summarization
 
-We provide the source code for the paper **"[Controlling the Amount of Verbatim Copying in Abstractive Summarization]()"**, accepted at AAAI'20. If you find the code useful, please cite the following paper. 
+We provide the source code for the paper **"[Controlling the Amount of Verbatim Copying in Abstractive Summarization](http://i2u.world/kqsong/paper/aaai2020_kaiqiang_2.pdf)"**, accepted at AAAI'20. If you find the code useful, please cite the following paper. 
 
     @inproceedings{control-over-copying:2020,
      Author = {Kaiqiang Song and Bingqing Wang and Zhe Feng and Liu Ren and Fei Liu},
@@ -58,7 +58,7 @@ $ pip install pyrouge
 
 ## I Want to Generate Summaries..
 
-1. Clone this repo. Download this ZIP  file ([`others.zip`]()) containing trained model. Move the ZIP file to the working folder and uncompress.
+1. Clone this repo. Download this ZIP  file ([`others.zip`](http://i2u.world/kqsong/model/aaai2020_kaiqiang_2/others.zip)) containing trained model. Move the ZIP file to the working folder and uncompress.
     ```
     $ git clone git@github.com:KaiQiangSong/control-over-copying.git
     $ mv others.zip control-over-copying

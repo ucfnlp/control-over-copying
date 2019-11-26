@@ -1,6 +1,6 @@
 # Controlling the Amount of Verbatim Copying in Abstractive Summarization
 
-We provide the source code for the paper **"[Controlling the Amount of Verbatim Copying in Abstractive Summarization](http://i2u.world/kqsong/paper/aaai2020_kaiqiang_2.pdf)"**, accepted at AAAI'20. If you find the code useful, please cite the following paper. 
+We provide the source code for the paper **"[Controlling the Amount of Verbatim Copying in Abstractive Summarization](https://arxiv.org/pdf/1911.10390.pdf)"**, accepted at AAAI'20. If you find the code useful, please cite the following paper. 
 
     @inproceedings{control-over-copying:2020,
      Author = {Kaiqiang Song and Bingqing Wang and Zhe Feng and Liu Ren and Fei Liu},

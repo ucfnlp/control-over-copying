@@ -74,7 +74,7 @@ $ pip install pyrouge
     ```
     Or if you want runing models other than that trained on gigaword:
     ```
-    $ python run.py --do_test --data newsroom --inputFile data/test.txt
+    $ python run.py --do_test --dataset newsroom --inputFile data/test.txt
     ```
    
 ## I Want to Train the Model..

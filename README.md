@@ -68,7 +68,7 @@ $ pip install pyrouge
     $ mkdir log
     ```
 
-2. Generating Summaries with our joint parsing and generating summarization model trained on selected dataset including: gigaword (default), newsroom, cnndm (for CNN/DM-R), websplit.
+2. Generating Summaries with our summarization model trained on selected dataset including: gigaword (default), newsroom.
     ```
     $ python run.py --do_test --inputFile data/test.txt
     ```
